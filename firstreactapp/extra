@@ -1,0 +1,52 @@
+react  -- is the main dependency for application
+react-dom --  helps to display the content 
+react-script -- make the react application run on server.
+
+
+--------------------------------------------------------------------------------------------------------------
+
+single page application is nothing but page doesn't load each time rather it changes the content.
+it contains a layout page where the content will change when user clicks on desired services in application.
+they are faster in loading. it will load all the contents at initial load and displays the content when we navigate.
+-----------
+problems:
+-----------
+SEO (Search engine Optimization) when we run application over something it will become faster and doesn't load the content at once.
+so that it won't display among the seo accuretly on top. 
+
+server side rendering (using NextJS) in order to avoid above problem
+---------------------------------------------------------------------------------------------------------------
+react is a frontend library which is used to build singlepage application using component based structure.
+
+library is a smaller unit.
+framework is a bigger unit.  (everything it as it own it don't require any thing from external source).
+-------------------------------------------------------------------------------------------------------------------
+component in react:
+------------------------
+two kind of components 1. class comp , 2. functional comp and 3.Hooks component
+if we are using routing number 6 or greater then we cannot use class components only functional/Hooks is supported.
+
+->class component is called as logical component and helps to maintain state also used for display purpose
+->functional component are called as dumb component and helps to only display purpose.
+
+in react we dont have any html code.
+
+
+
+ES5
+function add(a,b){
+    return a+b;
+}
+
+ES6
+
+const add(a,b)=>{
+    return a+b
+}
+
+
+
+
+
+
+
