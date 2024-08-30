@@ -11,7 +11,7 @@
 import React from "react";
 //import ReactDom from "react-dom";
 import ReactDom from "react-dom/client";
-import Firstcomponent from "./firstcomp";
+import Firstcomponent from "./Component/firstcomp";
 
 // //arrow functions
 // let Firstcomp = () => {
@@ -23,9 +23,7 @@ import Firstcomponent from "./firstcomp";
 //   );
 // };
 
-// this below line is used to make the 
-const root =  ReactDom.createRoot(document.getElementById("reactApp"));
-root.render(
-  <Firstcomponent/>
-)
+// this below line is used to make the
+const root = ReactDom.createRoot(document.getElementById("reactApp"));
+root.render(<Firstcomponent />);
 //ReactDom.render(<Firstcomp />, document.getElementById("reactApp"));

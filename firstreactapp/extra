@@ -45,7 +45,21 @@ const add(a,b)=>{
 }
 
 
+----------------------------------------------------------------------------------------------------------------
+state and props  
+-----------------
+state
+-----------------
+it act as a local variable 
+every component can have its own state.
+we can update the value of state and with every state change component will rerender.
+----------------------
+props
+----------------------
+helps to transfer the data between components
+data can only transfer between the nested components. (parent child componets)
 
+prop drilling ()
 
 
 
